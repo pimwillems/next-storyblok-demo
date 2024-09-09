@@ -1,4 +1,5 @@
 import "./[locale]/globals.css";
+import "./[locale]/Feature.css";
 import { storyblokInit, apiPlugin } from "@storyblok/react/rsc";
 import StoryblokProvider from "../components/StoryblokProvider";
 
@@ -7,7 +8,13 @@ storyblokInit({
   use: [apiPlugin],
 });
 
-export default async function RootLayout({ children, params }: { children: React.ReactNode; params: { locale: string } }) {
+export default async function RootLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
   return (
     <StoryblokProvider>
       <html>
