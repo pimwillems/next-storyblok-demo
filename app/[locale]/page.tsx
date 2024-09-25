@@ -30,6 +30,7 @@ const Home: NextPage<Props> = async ({ params: { locale } }) => {
     <div>
       <h1>{data.story.name}</h1>
       <StoryblokStory story={data.story} />
+      <footer> Dit is een footer </footer>
     </div>
   );
 };
