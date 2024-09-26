@@ -6,7 +6,7 @@ import {
   SbReactComponentsMap,
 } from "@storyblok/react/rsc";
 import Page from "./page.component";
-import Feature from "./Feature";
+import Feature from "./Feature/Feature";
 
 const components = {
   page: Page,

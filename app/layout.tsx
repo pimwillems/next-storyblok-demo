@@ -1,5 +1,4 @@
-import "./[locale]/globals.css";
-import "./[locale]/Feature.css";
+import "./globals.css";
 import { storyblokInit, apiPlugin } from "@storyblok/react/rsc";
 import StoryblokProvider from "../components/StoryblokProvider";
 
